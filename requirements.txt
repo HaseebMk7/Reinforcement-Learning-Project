@@ -1,0 +1,21 @@
+# Core Dependencies
+gymnasium>=0.29.0
+stable-baselines3>=2.0.0
+shimmy>=1.0.0
+mujoco>=3.0.0
+numpy>=1.24.0
+
+# Visualization and Plotting
+matplotlib>=3.7.0
+
+# ROS 2 Dependencies (Install separately via apt)
+# rclpy  # Install with: sudo apt install ros-humble-rclpy
+# geometry-msgs  # Install with: sudo apt install ros-humble-geometry-msgs
+
+# Optional: Tensorboard for monitoring training
+tensorboard>=2.13.0
+
+# Optional: For Jupyter notebooks (if using dev.ipynb files)
+jupyter>=1.0.0
+notebook>=6.5.0
+ipykernel>=6.25.0

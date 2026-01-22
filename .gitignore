@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Models and Training Data
+*.zip
+*.pt
+*.pth
+models/*.zip
+models/*.pt
+models/logs/
+models/monitor.csv
+
+# Training Logs
+data/
+logs/
+tensorboard/
+
+# MuJoCo
+*.mjb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated plots
+*.png
+learning_curve.png
+success_graph.png
+
+# ROS
+build/
+install/
+log/
+devel/
